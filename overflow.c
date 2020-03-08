@@ -31,5 +31,5 @@ int main()
 
 int overflow()
 {
-  printf("You've earned an A+ for the class.")
+  printf("You've earned an A+ for the class.");
 }
