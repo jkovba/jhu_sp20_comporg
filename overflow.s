@@ -35,7 +35,11 @@
     	    	addi $t1, $t1, 1
     	    	bne $t3, 1, load_str
     	
+    	    li $v0, 4
+    	    syscall
+    
     	    lw $ra 16($sp)
+    	    lw $a0 12($sp)
     	    jr $ra
     		
     	    null:
